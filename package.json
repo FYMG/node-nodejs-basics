@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This repository is the part of nodejs-assignments https://github.com/AlreadyBored/nodejs-assignments",
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=22.9.0"
   },
   "type": "module",
   "scripts": {
@@ -39,5 +39,9 @@
   "bugs": {
     "url": "https://github.com/AlreadyBored/node-nodejs-basics/issues"
   },
-  "homepage": "https://github.com/AlreadyBored/node-nodejs-basics#readme"
+  "homepage": "https://github.com/AlreadyBored/node-nodejs-basics#readme",
+  "volta": {
+    "node": "22.9.0"
+  },
+  "engineStrict": true
 }
